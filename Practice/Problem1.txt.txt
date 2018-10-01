@@ -1,1 +1,55 @@
-jhhj
+In Quick-Find Alogorithm, the array is accessed by each input is equal to the the size of an array.
+The array is
+	0	1	2	3	4	5	6	7	8	0
+
+	0	1	2	4	4	5	6	7	8	0
+
+	0	1	2	4	4	8	6	7	8	0
+
+	0	1	2	4	4	8	6	2	8	0
+
+	0	1	1	4	4	8	6	1	8	0
+
+	0	1	1	4	4	1	6	1	1	0
+
+	4	1	1	4	4	1	6	1	1	4
+
+	1	1	1	1	1	1	6	1	1	1
+
+
+
+In Quick-Union Algorithm, the array is accessed by each input is 
+The array is
+	0	1	2	3	4	5	6	7	8	0
+
+	0	1	2	4	4	5	6	7	8	0
+
+	0	1	2	4	4	8	6	7	8	0
+
+	0	1	2	4	4	8	6	2	8	0
+
+	0	1	1	4	4	8	6	2	8	0
+
+	0	1	1	4	4	g	6	2	1	0
+
+	4	1	1	4	4	8	6	2	1	0
+
+	4	1	1	4	1	8	6	2	1	0
+
+In Weighted Quick-Union Algorithm, the array is accessed by each input is 
+The array is
+	9	1	2	3	4	5	6	7	8	9
+
+	9	1	2	3	3	5	6	7	8	9
+
+	9	1	2	3	3	5	6	7	5	9
+
+	9	1	7	3	3	5	6	7	5	9
+
+	9	7	7	3	3	5	6	7	5	9
+
+	9	7	7	3	3	5	6	5	5	9
+
+	9	7	7	9	3	5	6	5	5	9
+
+	9	7	7	9	3	9	6	5	5	9
