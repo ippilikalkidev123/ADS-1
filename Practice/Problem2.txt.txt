@@ -1,0 +1,4 @@
+Weighted Quick union Technique is better when compare with Quick find, Quick union and 
+Weighted Quick union because, In this technique we are compressing path of between the
+root and and the input value. So due to this complexity of the algorithm decreases.
+ 
