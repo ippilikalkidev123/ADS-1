@@ -3,7 +3,7 @@ package Activities;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Test
+public class Solution
 {
 public static void main(String[] args)
 {
