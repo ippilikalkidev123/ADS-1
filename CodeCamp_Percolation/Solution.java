@@ -1,4 +1,4 @@
-package com.abc;
+
 
 import java.util.Scanner;
 
