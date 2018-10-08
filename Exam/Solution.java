@@ -1,11 +1,9 @@
-
-import java.util.LinkedList;
 import java.util.Scanner;
-class Node1
+class Node
 {
 	int data;
-	Node1 next;
-	Node1(int a)
+	Node next;
+	Node(int a)
 	{
 		this.data=a;
 		this.next=null;
@@ -14,14 +12,14 @@ class Node1
 class list
 {
 	int size=0;
-	Node1 Head;
+	Node Head;
 	list()
 	{
 		Head=null;
 	}
 	public void addFirst(int a)
 	{
-		Node1 value=new Node1(a);
+		Node value=new Node(a);
 		size++;
 		if(Head==null)
 		{
@@ -35,25 +33,24 @@ class list
 	}
 	public void add(int a)
 	{
-		Node1 value=new Node1(a);
+		Node value=new Node(a);
 		size++;
 		if(Head==null)
 		Head=value;
 		else
 		{
-			Node1 temp=Head;
+			Node temp=Head;
 			while(temp.next!=null)
 			{
 				temp=temp.next;
 			}
 			temp.next=value;
 		}
-		//System.out.print(Disp());
 	}
 	public int popend()
 	{
 		size--;
-		Node1 temp=Head;
+		Node temp=Head;
 		if(Head==null)
 		{
 			int c=0;
@@ -69,7 +66,6 @@ class list
 		}
 		else
 		{
-			//Node1 temp=Head;
 			while(temp.next.next!=null)
 			{
 				temp=temp.next;
@@ -84,7 +80,7 @@ class list
 	}
 	public String Disp()
 	{
-		Node1 temp1=Head;
+		Node temp1=Head;
 		String s="";
 		if(temp1==null)
 		{
@@ -94,7 +90,7 @@ class list
 		{
 		while(temp1!=null)
 		{
-			s+=temp1.data;
+			s=s+temp1.data;
 			temp1=temp1.next;
 			//System.out.println(temp1.data);
 		}
@@ -107,22 +103,22 @@ class AddLargeNumbers {
     static Scanner sc=new Scanner(System.in);
     public static list numberToDigits(String number) {
     	String s=number;
-    	list one=new list();
+    	list l1=new list();
     	//System.out.println(s);
     	for(int i=0;i<s.length();i++)
     	{
     		int a=Character.getNumericValue(s.charAt(i));
-    		one.add(a);
+    		l1.add(a);
     		//System.out.println(one.Disp());
     	}
     	//System.out.println(one.Disp());
-		return one;
+		return l1;
 
     }
 
-    public static String digitsToNumber(list result) {
-    	//System.out.println(result.Disp());
-    	Node1 temp1=result.Head;
+    public static String digitsToNumber(list result)
+    {
+    	Node temp1=result.Head;
 		String s="";
 		if(temp1==null)
 		{
@@ -132,7 +128,7 @@ class AddLargeNumbers {
 		{
 		while(temp1!=null)
 		{
-			s+=temp1.data;
+			s=s+temp1.data;
 			temp1=temp1.next;
 			//System.out.println(temp1.data);
 		}
@@ -147,7 +143,7 @@ class AddLargeNumbers {
     	int len2=qDigits.size;
     	int d=0;
     	int e=0;
-    	list two=new list();
+    	list l2=new list();
     	if(len1>=len2)
     	{
 
@@ -162,23 +158,23 @@ class AddLargeNumbers {
     	{
     		if(e!=0)
     		{
-    			two.addFirst(e);
+    			l2.addFirst(e);
     		}
     	}
     	if(c>9)
     	{
     		d = c%10;
     		e=c/10;
-    		two.addFirst(d);
+    		l2.addFirst(d);
     	}
     	else
     	{
     		d=0;
     		e=0;
-    		two.addFirst(c);
+    		l2.addFirst(c);
     	} 
     	}
-    		return two;
+    		return l2;
     	
     		}
     		
@@ -196,24 +192,24 @@ class AddLargeNumbers {
     	{
     		if(e!=0)
     		{
-    			two.addFirst(e);
+    			l2.addFirst(e);
     		}
     	}
     	if(c>9)
     	{
     		d = c%10;
     		e=c/10;
-    		two.addFirst(d);
+    		l2.addFirst(d);
     	}
     	else
     	{
     		d=0;
     		e=0;
-    		two.addFirst(c);
+    		l2.addFirst(c);
     	} 
     	
     	}
-    		return two;
+    		return l2;
     	}
 		
     }
@@ -230,8 +226,6 @@ public class Solution {
                 list pDigits = AddLargeNumbers.numberToDigits(p);
                 System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
                 list qDigits = AddLargeNumbers.numberToDigits(q);
-               // System.out.println("....."+pDigits.Disp());
-                
                 System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
                 break;
 
