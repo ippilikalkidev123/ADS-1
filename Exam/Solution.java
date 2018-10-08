@@ -1,4 +1,4 @@
-package Exam1;
+
 import java.util.LinkedList;
 import java.util.Scanner;
 class Node1
