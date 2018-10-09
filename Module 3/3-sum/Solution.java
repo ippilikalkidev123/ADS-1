@@ -31,7 +31,7 @@ import java.util.*;
                 if (k > j) count++;
             }
         }
-        return count;
+         return count;
     } 
 
 
@@ -46,6 +46,6 @@ import java.util.*;
         	//System.out.println("Enter values"+(i+1));
         	array[i]=sc.nextInt();
         }
-        count(array);
+        System.out.println(count(array));
     } 
 }
