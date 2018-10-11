@@ -1,0 +1,423 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+999
+111
+
+Your Output: 
+999
+111
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+46498418098527020928092840923840932840923
+9823374982374823748237402340274074237427303840923
+
+Your Output: 
+46498418098527020928092840923840932840923
+9823374982374823748237402340274074237427303840923
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+46498418096287594875984759875982759875982759827598275297529875982759827598427598475987459872985729752987598475982759827598275982752857298578527020928092840923840932840923
+9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
+
+Your Output: 
+46498418096287594875984759875982759875982759827598275297529875982759827598427598475987459872985729752987598475982759827598275982752857298578527020928092840923840932840923
+9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+909
+0
+
+Your Output: 
+909
+0
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+90978978957984759847598437508870270982748937849723646465649480498409849808409408441616549840984984040123456789009876543234567898765432345678994334567423456767723445678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
+
+Your Output: 
+90978978957984759847598437508870270982748937849723646465649480498409849808409408441616549840984984040123456789009876543234567898765432345678994334567423456767723445678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
+
+----------------------------------------
+########## Testcase 5: Passed ##########
+Expected Output: 
+909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234462795692659265926529652985698255678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
+
+Your Output: 
+909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234462795692659265926529652985698255678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
+
+----------------------------------------
+########## Testcase 6: Passed ##########
+Expected Output: 
+1110
+
+Your Output: 
+1110
+
+----------------------------------------
+########## Testcase 7: Failed ##########
+Expected Output: 
+17298729465094143782178336767086358354
+
+Your Output: 
+71298729465094143782178336767086358354
+
+----------------------------------------
+########## Testcase 8: Passed ##########
+Expected Output: 
+729872958698639793875938799167856438593339414617744257892770845889626807538530965376456562998953974417154274561997373497348635094143782178336767086358354
+
+Your Output: 
+729872958698639793875938799167856438593339414617744257892770845889626807538530965376456562998953974417154274561997373497348635094143782178336767086358354
+
+----------------------------------------
+########## Testcase 9: Passed ##########
+Expected Output: 
+2119
+
+Your Output: 
+2119
+
+----------------------------------------
+########## Testcase 10: Passed ##########
+Expected Output: 
+729872958698639793875938798437983479843832822055718717801745594186420178272238311955785142425542311974286782795967854242503409135283639282507735296484809448531065366538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+
+Your Output: 
+729872958698639793875938798437983479843832822055718717801745594186420178272238311955785142425542311974286782795967854242503409135283639282507735296484809448531065366538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+
+----------------------------------------
+########## Testcase 11: Passed ##########
+Expected Output: 
+72987295869863979387593879843798347984383282205571871780174559418642017827223831195578514242554231197428678279596785424250340913528363928250773537281123831687861811513173877862918587519222744223594642197433146034236035877472705421901972318273733013123340377487760905478670014081581201129930929102021011408239201201201292016538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+
+Your Output: 
+72987295869863979387593879843798347984383282205571871780174559418642017827223831195578514242554231197428678279596785424250340913528363928250773537281123831687861811513173877862918587519222744223594642197433146034236035877472705421901972318273733013123340377487760905478670014081581201129930929102021011408239201201201292016538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+
+----------------------------------------
+Result: 11/12 testcases passed.
+Starting audit...
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:3:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:4:13: Variable 'data' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:5:14: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:6:14: Parameter a should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:7:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:8:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:8:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:9:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:9:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:12: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:12:7: Name 'list' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:13:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:14:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:14:13: Variable 'size' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:14:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:14:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:15:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:15:14: Name 'Head' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:15:14: Variable 'Head' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:16:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:17:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:18:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:18:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:20:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:20:30: Parameter a should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:21:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:22:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:22:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:24:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:24:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:24:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:25:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:26:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:26:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:27:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:29:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:30:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:30:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:31:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:31:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:34:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:34:25: Parameter a should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:35:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:36:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:36:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:38: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:38:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:38:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:38:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:39:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:39:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:41:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:42:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:42:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:43:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:43:40: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:43:42: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:44:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:45:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:45:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:47:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:47:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:50:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:51:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:53:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:53:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:54:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:54:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:54:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:55:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:56:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:56:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:58:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:60:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:61:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:61:29: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:61:31: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:62:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:63:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:63:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:64:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:64:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:66:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:68:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:69:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:69:45: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:69:47: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:70:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:71:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:71:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:73:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:73:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:74:34: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:74:35: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:78: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:79: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:81:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:81:23: Name 'Disp' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:82:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:83:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:83:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:84:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:84:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:85:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:85:25: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:85:27: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:86:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:88:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:90:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:91:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:91:28: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:91:30: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:92:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:93:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:93:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:93:28: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:93:29: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:94:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:94:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:102: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:102:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:103:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:103:20: Variable 'sc' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:103:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:103:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:104:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:104:39: Parameter number should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:105:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:105:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:106:16: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:106:17: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:21: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:22: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:23: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:108:34: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:109:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:110:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:110:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:119:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:119:41: Parameter result should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:120:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:121:19: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:121:20: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:122:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:122:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:123:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:123:25: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:123:27: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:124:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:126:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:128:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:129:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:129:28: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:129:30: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:130:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:131:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:131:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:131:28: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:131:29: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:132:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:132:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:138: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:141:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:141:40: Parameter pDigits should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:141:54: Parameter qDigits should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:142:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:142:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:143:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:143:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:144:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:144:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:145:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:145:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:146:16: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:146:17: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:147:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:147:16: '>=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:147:18: '>=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:148:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:30: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:31: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:150:36: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:151:17: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:152:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:152:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:153:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:153:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:154: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:155:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:155:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:155:16: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:155:17: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:155:18: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:155:19: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:156: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:157:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:157:13: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:157:15: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:157:19: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:157:20: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:158:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:159:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:159:21: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:159:23: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:160:17: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:164:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:164:13: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:164:14: '9' is a magic number. [MagicNumber]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:164:14: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:165:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:166:22: '%' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:166:23: '%' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:166:23: '10' is a magic number. [MagicNumber]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:167:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:167:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:167:20: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:167:21: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:167:21: '10' is a magic number. [MagicNumber]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:169:9: '}' at column 6 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:171:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:172:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:172:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:173:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:173:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:175: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:178: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:179:17: '}' at column 7 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:180: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:181: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:183:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:29: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:30: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:31: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:184:36: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:185:17: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:186:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:186:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:187:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:187:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:189:14: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:189:15: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:189:16: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:189:17: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:189:18: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:189:19: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:190:10: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:190:11: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:191:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:191:13: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:191:15: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:191:19: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:191:20: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:192:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:193:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:193:21: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:193:23: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:194:17: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:198:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:198:13: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:198:14: '9' is a magic number. [MagicNumber]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:198:14: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:199:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:200:22: '%' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:200:23: '%' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:200:23: '10' is a magic number. [MagicNumber]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:201:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:201:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:201:20: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:201:21: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:201:21: '10' is a magic number. [MagicNumber]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:203:9: '}' at column 6 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:205:9: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:206:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:206:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:207:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:207:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:209: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:210: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:214: Line has trailing spaces. [RegexpSingleline]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:218: Missing a Javadoc comment. [JavadocType]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:218:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:219:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:219:29: Parameter args should be final. [FinalParameters]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:224: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:224:15: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:224:22: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:235: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] I:\1)MSIT Tasks\DS-1\Tasks\ADS-1\Exam\Solution.java:240: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 303 errors.
+
+
+[master 625c0b7] "check_style_score -> 11 of 12 passed. style score: 0/1 "
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Exam/a.txt
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+

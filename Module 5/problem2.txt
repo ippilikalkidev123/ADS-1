@@ -1,0 +1,18 @@
+Q : What does the following code fragment do to the queue q?
+Stack stack = new Stack();
+
+while (!q.isEmpty())
+
+stack.push(q.dequeue());
+
+while (!stack.isEmpty())
+
+q.enqueue(stack.pop());
+
+Ans: Assume there is numbers 0 to 9 in Queue.
+    0   1   2   3   4   5  6   7   8   9  
+Initially we done dequeue and that element is pushed in stack.
+As per Queue logic first element in the queue is removed and pushed into stack. In this way all the elements in the queue is moved into stack.
+By the next statement we had done pop operation on stack. By the logic of pop in stack it will remove the last element in the pop and it will be enqueued into in Queue.
+By this complete action the elements in the Queue is reversed when compare with the elements in last.
+      9   8   7   6   5   4   3   2   1  0 
