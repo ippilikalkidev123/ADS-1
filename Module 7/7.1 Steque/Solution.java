@@ -8,12 +8,12 @@ class Deque
     
     class Node
     {
-        String data;
+        int data;
          Node next;
         
-        Node(String val,Node link)
+        Node(int value,Node link)
         {
-            this.data = val;
+            this.data = value;
             this.next = null;
         }
     }
@@ -25,7 +25,7 @@ class Deque
         last = null;
     }
    
-    public void push(String value)
+    public void push(int value)
     {
         if(first==null) 
         {
@@ -41,7 +41,7 @@ class Deque
         elements++;
     }
     
-    public void enqueue(String value) 
+    public void enqueue(int value) 
     {
         if (last==null)
         {
@@ -67,9 +67,13 @@ class Deque
         {
             Node popped=first;
             first=first.next;
-            popped.data=null;
+            popped.data=0;
             popped.next=null;
             elements--;
+        }
+        else
+        {
+        	System.out.println("Steque is empty.");
         }
     }
 }
@@ -84,7 +88,7 @@ class Solution
 			while(sc.hasNext())
 			{
 				String input=sc.next();
-				String k=sc.next();
+				int k=sc.nextInt();
 				Deque d=new Deque();
 				switch(input)
 				{
