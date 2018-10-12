@@ -78,7 +78,7 @@ class steque
     	Node temp=first;
     	while(temp!=null)
     	{
-    		System.out.print(temp.data);
+    		System.out.print(temp.data+", ");
     		temp=temp.next;
     	}
     } 
