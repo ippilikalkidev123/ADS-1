@@ -69,17 +69,25 @@ class steque
         else
         {
         	System.out.println("Steque is empty.");
+        	
         }
     }
     void Display()
     {
     	Node temp=first;
-    	while(temp.next!=null)
+    	while(temp!=null)
     	{
+    		if(temp.next!=null)
+    		{
     		System.out.print(temp.data+", ");
-    		temp=temp.next;
-    	}
+    		
+    	     }
+    		else
+    		{
     			System.out.print(temp.data);
+    		}
+    		temp=temp.next;
+    	}		
     }
     void blank()
     {
