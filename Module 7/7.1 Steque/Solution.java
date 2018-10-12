@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Deque
+class steque
 {
     
     int elements;
@@ -11,31 +11,28 @@ class Deque
         int data;
          Node next;
         
-        Node(int value,Node link)
+        Node(int value)
         {
             this.data = value;
             this.next = null;
         }
     }
     
-    Deque()
-    {
-        elements = 0;
-        first = null;
-        last = null;
-    }
    
     public void push(int value)
     {
+    	Node n=new Node(value);
+    	Node temp=first;
         if(first==null) 
         {
-            first=new Node(value,null);
-            last=first;
+            first=n;
+            last=n;
         } 
         else
         {
-            Node newnode=new Node(value,first);
-             first=newnode;
+        	
+             first=n;
+             first.next=temp;
         }
 
         elements++;
@@ -45,13 +42,13 @@ class Deque
     {
         if (last==null)
         {
-            last=new Node(value,null);
+            last=new Node(value);
             
-            first=last;
+            first=new Node(value);
         } 
         else 
         {
-            Node newnode=new Node(value, null);
+            Node newnode=new Node(value);
             
             last.next=newnode;
             last=newnode;
@@ -76,6 +73,15 @@ class Deque
         	System.out.println("Steque is empty.");
         }
     }
+    void Display()
+    {
+    	Node temp=first;
+    	while(temp!=null)
+    	{
+    		System.out.print(temp.data);
+    		temp=temp.next;
+    	}
+    } 
 }
 class Solution
 {
@@ -83,23 +89,30 @@ class Solution
 	{
 		Scanner sc = new Scanner(System.in);
 		int N=sc.nextInt();
+		steque d=new steque();
 		for(int i=0;i<N;i++)
 		{
 			while(sc.hasNext())
 			{
 				String input=sc.next();
-				int k=sc.nextInt();
-				Deque d=new Deque();
 				switch(input)
 				{
 				case "push":
+					int k=sc.nextInt();
 					d.push(k);
+					System.out.println("");
+					d.Display();
 					break;
 				case "pop":
 					d.pop();
+					System.out.println("");
+					d.Display();
 					break;
 				case "enqueue":
-					d.enqueue(k);
+					int k1=sc.nextInt();
+					d.enqueue(k1);
+					System.out.println("");
+					d.Display();
 					break;
 				}
 			}
