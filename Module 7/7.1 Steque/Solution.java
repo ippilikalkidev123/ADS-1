@@ -43,13 +43,11 @@ class steque
         if (last==null)
         {
             last=new Node(value);
-            
             first=new Node(value);
         } 
         else 
         {
             Node newnode=new Node(value);
-            
             last.next=newnode;
             last=newnode;
         }
@@ -66,7 +64,7 @@ class steque
             first=first.next;
             popped.data=0;
             popped.next=null;
-            elements--;
+            //elements--;
         }
         else
         {
