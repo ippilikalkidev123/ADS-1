@@ -74,18 +74,12 @@ class steque
     void Display()
     {
     	Node temp=first;
-    	while(temp!=null)
+    	while(temp.next!=null)
     	{
-    		if(temp.next==null)
-    		{
     		System.out.print(temp.data+", ");
     		temp=temp.next;
-    		}
-    		//else
-    		{
-    			System.out.print(temp.data);
-    		}
     	}
+    			System.out.print(temp.data);
     }
     void blank()
     {
@@ -123,9 +117,9 @@ class Solution
 					System.out.println("");
 					d.Display();
 					break;
-				//case "":
-					//d.blank();
-					//break;
+				case "":
+					d.blank();
+					break;
 					
 				}
 			}
