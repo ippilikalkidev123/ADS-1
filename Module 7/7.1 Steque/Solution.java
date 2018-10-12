@@ -76,10 +76,21 @@ class steque
     	Node temp=first;
     	while(temp!=null)
     	{
+    		if(temp.next==null)
+    		{
     		System.out.print(temp.data+", ");
     		temp=temp.next;
+    		}
+    		//else
+    		{
+    			System.out.print(temp.data);
+    		}
     	}
-    } 
+    }
+    void blank()
+    {
+    	first=null;
+    }
 }
 class Solution
 {
@@ -112,6 +123,10 @@ class Solution
 					System.out.println("");
 					d.Display();
 					break;
+				//case "":
+					//d.blank();
+					//break;
+					
 				}
 			}
 		}
