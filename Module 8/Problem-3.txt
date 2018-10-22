@@ -1,0 +1,8 @@
+
+
+
+Q3: Which method runs faster for an array with all keys identical, basic selection sort or basic insertion sort?
+
+A: When all the keys are identical, insertion sort runs faster than selection sort. Selection sort will take O(n2) time complexity since at each iteration it will find the smallest/largest element by traversing the whole array. So identical keys have no impact in reducing the time complexity.
+
+But with all the keys being identical, insertion sort will take O(n) time complexity (since all the keys are same it doesn’t need to find the correct position of the element in the sorted list)
