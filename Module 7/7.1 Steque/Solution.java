@@ -4,14 +4,15 @@ class steque
 {
     
     int elements;
-    Node first,last;
+    Node first=null;
+    Node last=null;
     
     class Node
     {
-        int data;
+        Object data;
          Node next;
         
-        Node(int value)
+        Node(Object value)
         {
             this.data = value;
             this.next = null;
@@ -19,7 +20,7 @@ class steque
     }
     
    
-    public void push(int value)
+    public void push(Object value)
     {
     	Node n=new Node(value);
     	Node temp=first;
@@ -38,39 +39,33 @@ class steque
         elements++;
     }
     
-    public void enqueue(int value) 
+    public void enqueue(Object value) 
     {
-        if (last==null)
+    	//System.out.println("*");
+    	 Node n=new Node(value);
+        if (first==null)
         {
-            last=new Node(value);
-            first=new Node(value);
+            //System.out.println("[");
+            first=n;
+            last=n;
         } 
         else 
         {
-            Node newnode=new Node(value);
-            last.next=newnode;
-            last=newnode;
+        	//System.out.println("]");
+            last.next=n;
+            last=last.next;
         }
-        elements++;
     }
     /**
      * pop.
      */
     void pop() 
     {
-        if(first!=null) 
-        {
-            Node popped=first;
-            first=first.next;
-            popped.data=0;
-            popped.next=null;
-            //elements--;
-        }
-        else
-        {
-        	System.out.println("Steque is empty.");
-        	
-        }
+    	 if(first!=null) 
+    	 {
+    		 Node temp=first;
+     	first=temp.next;
+         }
     }
     void Display()
     {
@@ -92,6 +87,7 @@ class steque
     void blank()
     {
     	first=null;
+    	//System.out.println("*");
     }
 }
 class Solution
@@ -105,12 +101,13 @@ class Solution
 		{
 			while(sc.hasNext())
 			{
-				String input=sc.next();
-				switch(input)
+				String x=sc.nextLine();
+				String a[]=x.split(" ");
+				//System.out.println("input"+input);
+				switch(a[0])
 				{
 				case "push":
-					int k=sc.nextInt();
-					d.push(k);
+					d.push(a[1]);
 					System.out.println("");
 					d.Display();
 					break;
@@ -118,15 +115,21 @@ class Solution
 					d.pop();
 					System.out.println("");
 					d.Display();
+					if(d.first==null)
+					{
+						System.out.print("Steque is empty.");
+					}
 					break;
 				case "enqueue":
-					int k1=sc.nextInt();
-					d.enqueue(k1);
+					//int k1=sc.nextInt();
+					d.enqueue(a[1]);
 					System.out.println("");
 					d.Display();
 					break;
 				case "":
+					//System.out.println("-");
 					d.blank();
+					System.out.println();
 					break;
 					
 				}
