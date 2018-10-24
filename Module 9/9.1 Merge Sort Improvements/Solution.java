@@ -1,77 +1,135 @@
-
-
 import java.util.Scanner;
-
-class mergeSort
+class Mergesortimp
 {
-	int n,mid,left,right;
-	void sort(String[] a)
+void merge(String[] a,int b,int m,int l)
 	{
-		n=a.length;
-		if(n<2)
+		if(a[m+1].compareTo(a[m])>0)
+		{
+			System.out.println("Array is already sorted. So, skipped the call to merge...");
 			return;
-		mid=n/2;
-		String[] left=new String[mid];
-		String[] right=new String[n-mid];
-		for(int i=0;i<mid-1;i++)
-		{
-			System.out.println(left[i]=a[i]);
 		}
-		for(int i=mid;i<n-1;i++)
-		{
-			System.out.println(right[i]=a[i]);
-		}
-		sort(left);
-		sort(right);
-		merge(left,right,a);
+		
+		int n1 = m - b + 1; 
+        int n2 = l - m;
+        
+        String c[] = new String[n1]; 
+        String d[] = new String [n2];
+        
+        for (int i=0; i<n1; ++i) 
+            c[i] = a[b + i]; 
+        for (int j=0; j<n2; ++j) 
+            d[j] = a[m + 1+ j];
+  
+        int i = 0, j = 0; 
+   
+        int k = b; 
+        while (i < n1 && j < n2) 
+        { 
+            if (c[i].compareTo(d[j])<=0) 
+            { 
+                a[k] = c[i]; 
+                i++; 
+            }  
+            else
+            { 
+                a[k] = d[j]; 
+                j++; 
+            } 
+            k++; 
+        } 
+  
+        while (i < n1) 
+        { 
+            a[k] = c[i]; 
+            i++; 
+            k++; 
+        } 
+  
+  
+        while (j < n2) 
+        { 
+            a[k] = d[j]; 
+            j++; 
+            k++; 
+        } 
+
+        		
 	}
-	void merge(String[] left,String[] right,String[] a)
+	void insertionsort(String a[],int l,int r) {
+		System.out.println("Insertion sort method invoked...");
+		int n = a.length; 
+        for (int i=1; i<=r; ++i) 
+        { 
+            String key = a[i]; 
+            int j = i-1; 
+            while (j>=0 && a[j].compareTo(key)>0) 
+            { 
+                a[j+1] = a[j]; 
+                j = j-1; 
+            } 
+            a[j+1] = key; 
+        } 
+		
+	}
+	void sort(String[] a,int b,int l)
 	{
-		int i=0,j=0,k=0;
-		while(i<mid-1 && j<n-1)
-			if(Integer.parseInt(left[i])<Integer.parseInt(right[j]))
+		if(b<l)
+		{
+			int m=(b+l)/2;
+			
+			 if(m>=7)
 			{
-				a[k]=left[i];
-				i++;
+			sort(a,b,m);
+			sort(a,m+1,l);
+			
 			}
+			 
 			else
 			{
-				a[k]=right[j];
-				j++;
+				this.insertionsort(a,b,m);
+				
+				this.insertionsort(a, m+1, l);
+				 
+				
 			}
-		while (i<mid-1) 
-		{ 
-			a[k] = left[i]; 
-			i++; 
-			k++; 
-		} 
-		while (j<n-1) 
-		{ 
-			a[k] = right[j]; 
-			j++; 
-			k++; 
-		} 
+			 
+			 
+	
 		}
-	 void printArray(String[] a) 
-	{ 
-		int n = a.length; 
-		for (int i=0; i<n; ++i) 
-			System.out.print(a[i] + " "); 
-		System.out.println(); 
-	} 
+		
 	}
-public class Solution
-{
-	public static void main(String[] args)
+	void display(String[] a)
 	{
-		Scanner sc =new Scanner(System.in);
-		while(sc.hasNext())
+		int n=a.length;
+		System.out.print("[");
+		for(int i=0;i<n;i++)
 		{
-			String s=sc.nextLine();
-			String[] a=s.split(",");
-			mergeSort ms=new mergeSort();
-			ms.sort(a);
-			ms.printArray(a);
+			if(i+1!=n)
+			System.out.print(a[i]+",");
+			else
+				System.out.print(a[i]);
 		}
+		System.out.println("]");
+	}
+	
+	
+	   
+}
+
+public class Solution {
+	public static void main(String args[])
+	{
+	Scanner sc=new Scanner(System.in);
+	Mergesortimp w=new Mergesortimp();
+	while(sc.hasNext())
+	{
+		String p=sc.nextLine();
+		String[] pp=p.split(",");
+		
+		int l=pp.length;
+		w.sort(pp,0,l-1);
+		w.display(pp);
+	}
+	
 	}
 }
