@@ -1,0 +1,29 @@
+                                     
+                                         Section I
+
+1) log(N)
+
+2) deepak
+
+3) a,d,e
+
+4) Minimum Occupancy - 10 % 
+   Maximum Occupancy - 90 %
+
+5) {     1
+   { [   2
+   { []  1
+   { (   2
+   { ()  1
+   {}    0
+
+6) N*log(N)
+
+7) N + (N/2)
+
+8) 1
+
+9) N^2
+
+10) 0 0 0 0 0 0 0 0 0 0
+
